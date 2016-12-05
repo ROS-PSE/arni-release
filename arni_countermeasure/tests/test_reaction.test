@@ -1,3 +1,0 @@
-<launch>
-  <test test-name="test_reaction" pkg="arni_countermeasure" type="test_reaction.py" />
-</launch>
