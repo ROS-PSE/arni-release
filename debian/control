@@ -1,0 +1,13 @@
+Source: ros-indigo-arni-msgs
+Section: misc
+Priority: extra
+Maintainer: Matthias Hadlich <matthiashadlich@yahoo.de>
+Build-Depends: debhelper (>= 9.0.0), ros-indigo-catkin, ros-indigo-message-generation, ros-indigo-rosgraph-msgs
+Homepage: http://wiki.ros.org/arni
+Standards-Version: 3.9.2
+
+Package: ros-indigo-arni-msgs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-indigo-message-runtime, ros-indigo-rosgraph-msgs
+Description: ARNI message types, i.e.
+ host, node and rated statistics.
