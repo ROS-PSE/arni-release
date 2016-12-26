@@ -1,0 +1,12 @@
+Source: ros-indigo-arni-rqt-detail-plugin
+Section: misc
+Priority: extra
+Maintainer: Matthias Hadlich <matthiashadlich@yahoo.de>
+Build-Depends: debhelper (>= 9.0.0), ros-indigo-arni-gui, ros-indigo-catkin, ros-indigo-rospy, ros-indigo-rqt-gui, ros-indigo-rqt-gui-py
+Homepage: http://wiki.ros.org/arni
+Standards-Version: 3.9.2
+
+Package: ros-indigo-arni-rqt-detail-plugin
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-indigo-arni-gui, ros-indigo-rospy, ros-indigo-rqt-gui, ros-indigo-rqt-gui-py
+Description: The ARNI rqt_gui detail plugin.
