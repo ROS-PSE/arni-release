@@ -1,0 +1,13 @@
+Source: ros-indigo-arni-core
+Section: misc
+Priority: extra
+Maintainer: Matthias Hadlich <matthiashadlich@yahoo.de>
+Build-Depends: debhelper (>= 9.0.0), ros-indigo-arni-msgs, ros-indigo-catkin
+Homepage: http://wiki.ros.org/arni
+Standards-Version: 3.9.2
+
+Package: ros-indigo-arni-core
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-indigo-arni-msgs
+Description: This package contains common ARNI functionality.
+ Furthermore, generic launch files and integration tests.
